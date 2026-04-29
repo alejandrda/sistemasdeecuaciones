@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>base</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260429113704J87FT8</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260429113704EMFBX7</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>3.0</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Sistemas de ecuaciones</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Alejandro Díaz Álvarez</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>es</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>base</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.0-rc3</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1777364674650</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>false</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>default</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>b4ce18f2-c821-4a93-aef2-66354fc0f7c0</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Introducción</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Introducción</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>b4ce18f2-c821-4a93-aef2-66354fc0f7c0</odePageId>
+      <odeBlockId>block-1777304856273-3wr476yop</odeBlockId>
+      <blockName></blockName>
+      <iconName>guide</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>b4ce18f2-c821-4a93-aef2-66354fc0f7c0</odePageId>
+          <odeBlockId>block-1777304856273-3wr476yop</odeBlockId>
+          <odeIdeviceId>idevice-1777304856265-9ij2tvf4m</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">Los sistemas de ecuaciones constituyen una herramienta fundamental dentro del álgebra y permiten resolver situaciones en las que intervienen varias incógnitas relacionadas entre sí. En este nivel, su estudio no solo implica aprender distintos métodos de resolución, sino también comprender su utilidad para modelizar y resolver problemas de la vida cotidiana.</p>
+<p style="text-align: justify;">Un sistema de ecuaciones está formado por dos o más ecuaciones que comparten las mismas incógnitas, y cuya solución es el conjunto de valores que verifica todas ellas simultáneamente. En este curso nos centraremos principalmente en los sistemas de dos ecuaciones con dos incógnitas, que pueden resolverse mediante distintos procedimientos algebraicos y gráficos.</p>
+<p style="text-align: justify;">A lo largo de este documento se abordarán los principales métodos de resolución: sustitución, igualación, reducción y representación gráfica. Cada uno de ellos presenta ventajas en función del tipo de sistema, por lo que es importante no solo saber aplicarlos correctamente, sino también seleccionar el más adecuado en cada caso.</p>
+<p style="text-align: justify;">Además, se trabajará la interpretación de las soluciones, distinguiendo entre sistemas con una única solución, infinitas soluciones o sin solución, así como su representación en el plano cartesiano. Este enfoque permite conectar el lenguaje algebraico con el gráfico, favoreciendo una comprensión más completa de los conceptos.</p>
+<p style="text-align: justify;">Finalmente, el estudio de los sistemas de ecuaciones se orienta hacia la resolución de problemas, donde el alumnado deberá plantear, resolver e interpretar sistemas en contextos reales, desarrollando así el pensamiento lógico, la capacidad de análisis y la competencia matemática.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777304856265-9ij2tvf4m","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">Los sistemas de ecuaciones constituyen una herramienta fundamental dentro del álgebra y permiten resolver situaciones en las que intervienen varias incógnitas relacionadas entre sí. En este nivel, su estudio no solo implica aprender distintos métodos de resolución, sino también comprender su utilidad para modelizar y resolver problemas de la vida cotidiana.</p>\n<p style=\"text-align: justify;\">Un sistema de ecuaciones está formado por dos o más ecuaciones que comparten las mismas incógnitas, y cuya solución es el conjunto de valores que verifica todas ellas simultáneamente. En este curso nos centraremos principalmente en los sistemas de dos ecuaciones con dos incógnitas, que pueden resolverse mediante distintos procedimientos algebraicos y gráficos.</p>\n<p style=\"text-align: justify;\">A lo largo de este documento se abordarán los principales métodos de resolución: sustitución, igualación, reducción y representación gráfica. Cada uno de ellos presenta ventajas en función del tipo de sistema, por lo que es importante no solo saber aplicarlos correctamente, sino también seleccionar el más adecuado en cada caso.</p>\n<p style=\"text-align: justify;\">Además, se trabajará la interpretación de las soluciones, distinguiendo entre sistemas con una única solución, infinitas soluciones o sin solución, así como su representación en el plano cartesiano. Este enfoque permite conectar el lenguaje algebraico con el gráfico, favoreciendo una comprensión más completa de los conceptos.</p>\n<p style=\"text-align: justify;\">Finalmente, el estudio de los sistemas de ecuaciones se orienta hacia la resolución de problemas, donde el alumnado deberá plantear, resolver e interpretar sistemas en contextos reales, desarrollando así el pensamiento lógico, la capacidad de análisis y la competencia matemática.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303447381-95dp24r9m</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Método de sustitución</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Método de sustitución</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303447381-95dp24r9m</odePageId>
+      <odeBlockId>block-1777304965445-y2pdq7au4</odeBlockId>
+      <blockName></blockName>
+      <iconName>math</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303447381-95dp24r9m</odePageId>
+          <odeBlockId>block-1777304965445-y2pdq7au4</odeBlockId>
+          <odeIdeviceId>idevice-1777304965443-bs3j11mp7</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">El método de sustitución es uno de los procedimientos más utilizados para resolver sistemas de dos ecuaciones con dos incógnitas. Consiste en despejar una de las incógnitas en una de las ecuaciones y sustituir su valor en la otra, de manera que se obtiene una ecuación con una sola incógnita.</p>
+<p style="text-align: justify;"><strong>Pasos a seguir</strong><br /></p>
+<ol>
+<li style="text-align: justify;">Elegir una ecuación y despejar una incógnita (la más sencilla).</li>
+<li style="text-align: justify;">Sustituir la expresión obtenida en la otra ecuación.</li>
+<li style="text-align: justify;">Resolver la ecuación resultante (de una sola incógnita).</li>
+<li style="text-align: justify;">Sustituir el valor obtenido en la expresión despejada.</li>
+<li style="text-align: justify;">Comprobar la solución en ambas ecuaciones.</li>
+</ol>
+<p><strong>Consejos y errores comunes</strong><br /></p>
+<ul>
+<li>Es recomendable elegir la ecuación más sencilla para despejar.</li>
+<li>Cuidado con los signos al sustituir, especialmente cuando hay paréntesis.</li>
+<li>No olvidar comprobar la solución.</li>
+<li>Evitar despejes complicados con fracciones si se puede elegir otra opción.</li>
+</ul>
+<p><strong>¿Cuándo usar este método?</strong></p>
+<p>El método de sustitución es especialmente útil cuando:</p>
+<ul>
+<li>Una de las ecuaciones ya tiene una incógnita despejada.</li>
+<li>Es fácil aislar una variable sin generar expresiones complejas.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777304965443-bs3j11mp7","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">El método de sustitución es uno de los procedimientos más utilizados para resolver sistemas de dos ecuaciones con dos incógnitas. Consiste en despejar una de las incógnitas en una de las ecuaciones y sustituir su valor en la otra, de manera que se obtiene una ecuación con una sola incógnita.</p>\n<p style=\"text-align: justify;\"><strong>Pasos a seguir</strong><br /></p>\n<ol>\n<li style=\"text-align: justify;\">Elegir una ecuación y despejar una incógnita (la más sencilla).</li>\n<li style=\"text-align: justify;\">Sustituir la expresión obtenida en la otra ecuación.</li>\n<li style=\"text-align: justify;\">Resolver la ecuación resultante (de una sola incógnita).</li>\n<li style=\"text-align: justify;\">Sustituir el valor obtenido en la expresión despejada.</li>\n<li style=\"text-align: justify;\">Comprobar la solución en ambas ecuaciones.</li>\n</ol>\n<p><strong>Consejos y errores comunes</strong><br /></p>\n<ul>\n<li>Es recomendable elegir la ecuación más sencilla para despejar.</li>\n<li>Cuidado con los signos al sustituir, especialmente cuando hay paréntesis.</li>\n<li>No olvidar comprobar la solución.</li>\n<li>Evitar despejes complicados con fracciones si se puede elegir otra opción.</li>\n</ul>\n<p><strong>¿Cuándo usar este método?</strong></p>\n<p>El método de sustitución es especialmente útil cuando:</p>\n<ul>\n<li>Una de las ecuaciones ya tiene una incógnita despejada.</li>\n<li>Es fácil aislar una variable sin generar expresiones complejas.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303447381-95dp24r9m</odePageId>
+      <odeBlockId>block-1777306470575-71kuajr24</odeBlockId>
+      <blockName>Ejemplo resuelto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303447381-95dp24r9m</odePageId>
+          <odeBlockId>block-1777306470575-71kuajr24</odeBlockId>
+          <odeIdeviceId>idevice-1777306470566-ibkf5w9rh</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1777306470566-ibkf5w9rh" title="" href="{{context_path}}/content/resources/S1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/S1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1777306470566-ibkf5w9rh" title="" href="{{context_path}}/content/resources/S2_1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/S2_1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1777306470566-ibkf5w9rh" title="" href="{{context_path}}/content/resources/R3.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/R3.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777306470566-ibkf5w9rh","img_0":{"img":"{{context_path}}/content/resources/S1.jpg","thumbnail":"{{context_path}}/content/resources/S1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_3":{"img":"{{context_path}}/content/resources/S2_1.jpg","thumbnail":"{{context_path}}/content/resources/S2_1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/R3.jpg","thumbnail":"{{context_path}}/content/resources/R3.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303458967-gxykm6zaa</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Método de igualación</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Método de igualación</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303458967-gxykm6zaa</odePageId>
+      <odeBlockId>block-1777306644113-9a7f8tq5h</odeBlockId>
+      <blockName></blockName>
+      <iconName>math</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303458967-gxykm6zaa</odePageId>
+          <odeBlockId>block-1777306644113-9a7f8tq5h</odeBlockId>
+          <odeIdeviceId>idevice-1777306644106-iba55t4vm</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">El método de igualación consiste en despejar la misma incógnita en ambas ecuaciones y, posteriormente, igualar las expresiones obtenidas. De este modo, se obtiene una ecuación con una sola incógnita que se puede resolver fácilmente.</p>
+<p style="text-align: justify;"><strong>Pasos a seguir</strong></p>
+<ul>
+<li style="text-align: justify;">Despejar la misma incógnita en ambas ecuaciones.</li>
+<li style="text-align: justify;">Igualar las dos expresiones obtenidas.</li>
+<li style="text-align: justify;">Resolver la ecuación resultante (de una sola incógnita).</li>
+<li style="text-align: justify;">Sustituir el valor obtenido en una de las ecuaciones iniciales.</li>
+<li style="text-align: justify;">Comprobar la solución</li>
+</ul>
+<p><strong style="text-align: start;">Consejos y errores comunes</strong></p>
+<ul>
+<li>Asegúrate de despejar correctamente la misma incógnita en ambas ecuaciones.</li>
+<li>Cuidado con los signos al despejar.</li>
+<li>Simplifica bien antes de resolver la ecuación resultante.</li>
+<li>No olvides comprobar la solución.</li>
+</ul>
+<p><strong>¿Cuándo usar este método?</strong></p>
+<p>El método de igualación es especialmente útil cuando:</p>
+<ul>
+<li>Es fácil despejar la misma incógnita en ambas ecuaciones.</li>
+<li>Las expresiones obtenidas son sencillas y no generan fracciones complicadas.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777306644106-iba55t4vm","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">El método de igualación consiste en despejar la misma incógnita en ambas ecuaciones y, posteriormente, igualar las expresiones obtenidas. De este modo, se obtiene una ecuación con una sola incógnita que se puede resolver fácilmente.</p>\n<p style=\"text-align: justify;\"><strong>Pasos a seguir</strong></p>\n<ul>\n<li style=\"text-align: justify;\">Despejar la misma incógnita en ambas ecuaciones.</li>\n<li style=\"text-align: justify;\">Igualar las dos expresiones obtenidas.</li>\n<li style=\"text-align: justify;\">Resolver la ecuación resultante (de una sola incógnita).</li>\n<li style=\"text-align: justify;\">Sustituir el valor obtenido en una de las ecuaciones iniciales.</li>\n<li style=\"text-align: justify;\">Comprobar la solución</li>\n</ul>\n<p><strong style=\"text-align: start;\">Consejos y errores comunes</strong></p>\n<ul>\n<li>Asegúrate de despejar correctamente la misma incógnita en ambas ecuaciones.</li>\n<li>Cuidado con los signos al despejar.</li>\n<li>Simplifica bien antes de resolver la ecuación resultante.</li>\n<li>No olvides comprobar la solución.</li>\n</ul>\n<p><strong>¿Cuándo usar este método?</strong></p>\n<p>El método de igualación es especialmente útil cuando:</p>\n<ul>\n<li>Es fácil despejar la misma incógnita en ambas ecuaciones.</li>\n<li>Las expresiones obtenidas son sencillas y no generan fracciones complicadas.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303458967-gxykm6zaa</odePageId>
+      <odeBlockId>block-1777307104355-o8glb2ttj</odeBlockId>
+      <blockName>Ejemplo resuelto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303458967-gxykm6zaa</odePageId>
+          <odeBlockId>block-1777307104355-o8glb2ttj</odeBlockId>
+          <odeIdeviceId>idevice-1777307104349-qu3conqd9</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1777307104349-qu3conqd9" title="" href="{{context_path}}/content/resources/I1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/I1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1777307104349-qu3conqd9" title="" href="{{context_path}}/content/resources/I2_1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/I2_1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1777307104349-qu3conqd9" title="" href="{{context_path}}/content/resources/R3.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/R3.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777307104349-qu3conqd9","img_0":{"img":"{{context_path}}/content/resources/I1.jpg","thumbnail":"{{context_path}}/content/resources/I1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_3":{"img":"{{context_path}}/content/resources/I2_1.jpg","thumbnail":"{{context_path}}/content/resources/I2_1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/R3.jpg","thumbnail":"{{context_path}}/content/resources/R3.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303471873-on295ukdd</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Método de reducción</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Método de reducción</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303471873-on295ukdd</odePageId>
+      <odeBlockId>block-1777307293224-3wd9ozihk</odeBlockId>
+      <blockName></blockName>
+      <iconName>math</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303471873-on295ukdd</odePageId>
+          <odeBlockId>block-1777307293224-3wd9ozihk</odeBlockId>
+          <odeIdeviceId>idevice-1777307293219-189zpjfjr</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">El método de reducción consiste en sumar o restar las ecuaciones del sistema para eliminar una de las incógnitas, obteniendo así una ecuación con una sola variable.</p>
+<p style="text-align: justify;"> <br /><strong>Pasos a seguir</strong></p>
+<ol>
+<li style="text-align: justify;">Preparar las ecuaciones, multiplicando si es necesario para que los coeficientes de una incógnita sean opuestos.</li>
+<li style="text-align: justify;">Sumar o restar las ecuaciones para eliminar una incógnita.</li>
+<li style="text-align: justify;">Resolver la ecuación resultante (de una sola incógnita).</li>
+<li style="text-align: justify;">Sustituir el valor obtenido en una de las ecuaciones iniciales.</li>
+<li style="text-align: justify;">Comprobar la solución.</li>
+</ol>
+<p style="text-align: justify;"><strong>Consejos y errores comunes</strong></p>
+<ul>
+<li style="text-align: justify;">Si los coeficientes no son opuestos, multiplica las ecuaciones antes de sumar o restar.</li>
+<li style="text-align: justify;">Cuidado con los signos al operar.</li>
+<li style="text-align: justify;">Es recomendable elegir la incógnita más fácil de eliminar.</li>
+<li style="text-align: justify;">No olvidar comprobar la solución.</li>
+</ul>
+<p><strong>¿Cuándo usar este método?</strong></p>
+<p>El método de reducción es especialmente útil cuando:</p>
+<ul>
+<li style="text-align: justify;">Los coeficientes de una incógnita son iguales u opuestos.</li>
+<li style="text-align: justify;">Se puede eliminar fácilmente una variable sin complicar las operaciones.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777307293219-189zpjfjr","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">El método de reducción consiste en sumar o restar las ecuaciones del sistema para eliminar una de las incógnitas, obteniendo así una ecuación con una sola variable.</p>\n<p style=\"text-align: justify;\"> <br /><strong>Pasos a seguir</strong></p>\n<ol>\n<li style=\"text-align: justify;\">Preparar las ecuaciones, multiplicando si es necesario para que los coeficientes de una incógnita sean opuestos.</li>\n<li style=\"text-align: justify;\">Sumar o restar las ecuaciones para eliminar una incógnita.</li>\n<li style=\"text-align: justify;\">Resolver la ecuación resultante (de una sola incógnita).</li>\n<li style=\"text-align: justify;\">Sustituir el valor obtenido en una de las ecuaciones iniciales.</li>\n<li style=\"text-align: justify;\">Comprobar la solución.</li>\n</ol>\n<p style=\"text-align: justify;\"><strong>Consejos y errores comunes</strong></p>\n<ul>\n<li style=\"text-align: justify;\">Si los coeficientes no son opuestos, multiplica las ecuaciones antes de sumar o restar.</li>\n<li style=\"text-align: justify;\">Cuidado con los signos al operar.</li>\n<li style=\"text-align: justify;\">Es recomendable elegir la incógnita más fácil de eliminar.</li>\n<li style=\"text-align: justify;\">No olvidar comprobar la solución.</li>\n</ul>\n<p><strong>¿Cuándo usar este método?</strong></p>\n<p>El método de reducción es especialmente útil cuando:</p>\n<ul>\n<li style=\"text-align: justify;\">Los coeficientes de una incógnita son iguales u opuestos.</li>\n<li style=\"text-align: justify;\">Se puede eliminar fácilmente una variable sin complicar las operaciones.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303471873-on295ukdd</odePageId>
+      <odeBlockId>block-1777307887263-4i403h3rv</odeBlockId>
+      <blockName>Galería de imágenes</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303471873-on295ukdd</odePageId>
+          <odeBlockId>block-1777307887263-4i403h3rv</odeBlockId>
+          <odeIdeviceId>idevice-1777307887254-ylr5w7p88</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1777307887254-ylr5w7p88" title="" href="{{context_path}}/content/resources/R1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/R1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1777307887254-ylr5w7p88" title="" href="{{context_path}}/content/resources/R2.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/R2.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1777307887254-ylr5w7p88" title="" href="{{context_path}}/content/resources/R3.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/R3.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777307887254-ylr5w7p88","img_2":{"img":"{{context_path}}/content/resources/R1.jpg","thumbnail":"{{context_path}}/content/resources/R1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_3":{"img":"{{context_path}}/content/resources/R2.jpg","thumbnail":"{{context_path}}/content/resources/R2.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_4":{"img":"{{context_path}}/content/resources/R3.jpg","thumbnail":"{{context_path}}/content/resources/R3.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303482602-29sfdjypv</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Método gráfico</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Método gráfico</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303482602-29sfdjypv</odePageId>
+      <odeBlockId>block-1777308613514-bmlhfs0di</odeBlockId>
+      <blockName></blockName>
+      <iconName>arts</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303482602-29sfdjypv</odePageId>
+          <odeBlockId>block-1777308613514-bmlhfs0di</odeBlockId>
+          <odeIdeviceId>idevice-1777308613511-oxtjy322u</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>El método gráfico permite resolver sistemas de ecuaciones representando sus ecuaciones en el plano cartesiano. Cada ecuación se dibuja como una recta, y la solución del sistema se encuentra en su punto de corte. Es un método muy visual que ayuda a comprender mejor el significado de un sistema de ecuaciones. Se utiliza especialmente cuando se buscan soluciones aproximadas o para interpretar resultados de forma gráfica.</p>
+<p><strong> Pasos a seguir</strong></p>
+<ol>
+<li>Despejar la misma incógnita en ambas ecuaciones: Normalmente se despeja y = … en las dos ecuaciones.</li>
+<li>Construir una tabla de valores: Elegir valores de x y calcular los correspondientes valores de y en cada ecuación.</li>
+<li>Representar las rectas en el plano cartesiano: Dibujar los puntos obtenidos y unirlos para formar cada recta.</li>
+<li>Encontrar el punto de corte: El punto donde se cruzan las dos rectas es la solución del sistema.</li>
+<li>Comprobar la solución: Sustituir el punto obtenido en ambas ecuaciones para verificar el resultado.</li>
+</ol>
+<p><strong>Consejos y errores comunes</strong></p>
+<ul>
+<li>Utiliza una escala adecuada para que la gráfica sea clara y precisa.</li>
+<li>Elige valores sencillos para x para evitar errores en los cálculos.</li>
+<li>Dibuja los ejes correctamente y con buena proporción.</li>
+<li>Usa colores o marcas distintas para cada recta y no confundirte.</li>
+<li>Asegúrate de que las rectas están bien trazadas (puntos correctos y alineados).</li>
+<li>No olvides que el punto de corte es la solución del sistema.</li>
+<li>Evita errores al despejar la variable o al calcular la tabla de valores.</li>
+<li>Comprueba siempre la solución sustituyendo en las ecuaciones originales.</li>
+</ul>
+<p><strong>¿Cuándo usar este método?</strong></p>
+<p>El método gráfico se usa cuando:</p>
+<ul>
+<li>Se quiere una representación visual del sistema.</li>
+<li>Se buscan soluciones aproximadas.</li>
+<li>Las ecuaciones son lineales (rectas).</li>
+<li>Se desea interpretar de forma más intuitiva la solución.</li>
+</ul>
+<p>Es útil para entender el significado del sistema:</p>
+<ul>
+<li>Una solución → las rectas se cortan en un punto.</li>
+<li>Sin solución → las rectas son paralelas.</li>
+<li>Infinitas soluciones → las rectas coinciden.</li>
+</ul>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777308613511-oxtjy322u","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El método gráfico permite resolver sistemas de ecuaciones representando sus ecuaciones en el plano cartesiano. Cada ecuación se dibuja como una recta, y la solución del sistema se encuentra en su punto de corte. Es un método muy visual que ayuda a comprender mejor el significado de un sistema de ecuaciones. Se utiliza especialmente cuando se buscan soluciones aproximadas o para interpretar resultados de forma gráfica.</p>\n<p><strong> Pasos a seguir</strong></p>\n<ol>\n<li>Despejar la misma incógnita en ambas ecuaciones: Normalmente se despeja y = … en las dos ecuaciones.</li>\n<li>Construir una tabla de valores: Elegir valores de x y calcular los correspondientes valores de y en cada ecuación.</li>\n<li>Representar las rectas en el plano cartesiano: Dibujar los puntos obtenidos y unirlos para formar cada recta.</li>\n<li>Encontrar el punto de corte: El punto donde se cruzan las dos rectas es la solución del sistema.</li>\n<li>Comprobar la solución: Sustituir el punto obtenido en ambas ecuaciones para verificar el resultado.</li>\n</ol>\n<p><strong>Consejos y errores comunes</strong></p>\n<ul>\n<li>Utiliza una escala adecuada para que la gráfica sea clara y precisa.</li>\n<li>Elige valores sencillos para x para evitar errores en los cálculos.</li>\n<li>Dibuja los ejes correctamente y con buena proporción.</li>\n<li>Usa colores o marcas distintas para cada recta y no confundirte.</li>\n<li>Asegúrate de que las rectas están bien trazadas (puntos correctos y alineados).</li>\n<li>No olvides que el punto de corte es la solución del sistema.</li>\n<li>Evita errores al despejar la variable o al calcular la tabla de valores.</li>\n<li>Comprueba siempre la solución sustituyendo en las ecuaciones originales.</li>\n</ul>\n<p><strong>¿Cuándo usar este método?</strong></p>\n<p>El método gráfico se usa cuando:</p>\n<ul>\n<li>Se quiere una representación visual del sistema.</li>\n<li>Se buscan soluciones aproximadas.</li>\n<li>Las ecuaciones son lineales (rectas).</li>\n<li>Se desea interpretar de forma más intuitiva la solución.</li>\n</ul>\n<p>Es útil para entender el significado del sistema:</p>\n<ul>\n<li>Una solución → las rectas se cortan en un punto.</li>\n<li>Sin solución → las rectas son paralelas.</li>\n<li>Infinitas soluciones → las rectas coinciden.</li>\n</ul>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303482602-29sfdjypv</odePageId>
+      <odeBlockId>block-1777365182117-8vzagneia</odeBlockId>
+      <blockName>Simulador de resolución por el método gráfico</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303482602-29sfdjypv</odePageId>
+          <odeBlockId>block-1777365182117-8vzagneia</odeBlockId>
+          <odeIdeviceId>idevice-1777365182114-tfcdwubny</odeIdeviceId>
+          <odeIdeviceTypeName>external-website</odeIdeviceTypeName>
+          <htmlView><![CDATA[      <div id="iframeWebsiteIdevice">       <iframe src="https://mathcracker.com/es/calculadora-metodo-grafico-sistema-ecuaciones" size="2" width="600" height="300" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      ]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303497057-c4oq8g8jk</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Resolución de problemas</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Resolución de problemas</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303497057-c4oq8g8jk</odePageId>
+      <odeBlockId>block-1777365376891-b0krceqo8</odeBlockId>
+      <blockName></blockName>
+      <iconName>think</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303497057-c4oq8g8jk</odePageId>
+          <odeBlockId>block-1777365376891-b0krceqo8</odeBlockId>
+          <odeIdeviceId>idevice-1777365376889-hu8o3qv4e</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">La resolución de problemas mediante sistemas de ecuaciones permite aplicar las matemáticas a situaciones reales, desarrollando la capacidad de análisis, razonamiento y toma de decisiones. En este nivel, el objetivo no es solo resolver el sistema, sino también plantearlo correctamente a partir del enunciado e interpretar la solución obtenida.</p>
+<p style="text-align: justify;"> <br /><strong>Pasos para resolver un problema</strong></p>
+<ul>
+<li style="text-align: justify;">Leer y comprender el enunciado</li>
+<li style="text-align: justify;">Identificar qué se pide y qué datos se proporcionan.</li>
+<li style="text-align: justify;">Definir las incógnitas</li>
+<li style="text-align: justify;">Asignar letras (por ejemplo, x, y) a las cantidades desconocidas.</li>
+<li style="text-align: justify;">Traducir la información del problema a lenguaje algebraico.</li>
+<li style="text-align: justify;">Plantear el sistema de ecuaciones.<br /></li>
+<li style="text-align: justify;">Resolver el sistema.</li>
+<li style="text-align: justify;">Utilizar el método más adecuado (sustitución, igualación, reducción o método gráfico).</li>
+<li style="text-align: justify;">Interpretar la solución.</li>
+<li style="text-align: justify;">Explicar el resultado en el contexto del problema.<br /></li>
+<li style="text-align: justify;">Verificar que la solución cumple las condiciones del enunciado.</li>
+</ul>
+<p><strong>Dificultades habituales</strong></p>
+<ul>
+<li style="text-align: justify;">Traducir correctamente el enunciado a ecuaciones.</li>
+<li style="text-align: justify;">Elegir bien las incógnitas.</li>
+<li style="text-align: justify;">Interpretar el resultado final (no quedarse solo en x e y).</li>
+</ul>
+<p><strong>Ejemplo guiado</strong></p>
+<p>En una papelería, dos cuadernos y un bolígrafo cuestan 5€. Un cuaderno y dos bolígrafos cuestan 4€. ¿Cuánto cuesta cada producto?</p>
+<p style="text-align: justify;"> <br />1. Definimos las incógnitas:</p>
+<p style="text-align: justify;">x: precio de un cuaderno<br />y: precio de un bolígrafo<br /> <br />2. Planteamos el sistema:</p>
+<p style="text-align: justify;">2x+y=5</p>
+<p style="text-align: justify;">x+2y=4</p>
+<p style="text-align: justify;"><br />3. Resolvemos (por ejemplo, por reducción):</p>
+<p style="text-align: justify;">Multiplicamos la segunda ecuación por 2:</p>
+<p style="text-align: justify;">2x+4y=8</p>
+<p style="text-align: justify;">Restamos la primera ecuación:</p>
+<p style="text-align: justify;">(2x+4y)−(2x+y)=8−5</p>
+<p style="text-align: justify;">3y=3</p>
+<p style="text-align: justify;">y=1</p>
+<p style="text-align: justify;">Sustituimos:</p>
+<p style="text-align: justify;">x+2(1)=4</p>
+<p style="text-align: justify;">x+2=4</p>
+<p style="text-align: justify;">x=2</p>
+<p style="text-align: justify;"> <br />4. Interpretamos la solución:</p>
+<p style="text-align: justify;">Un cuaderno cuesta 2€<br />Un bolígrafo cuesta 1€<br /> <br /><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777365376889-hu8o3qv4e","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">La resolución de problemas mediante sistemas de ecuaciones permite aplicar las matemáticas a situaciones reales, desarrollando la capacidad de análisis, razonamiento y toma de decisiones. En este nivel, el objetivo no es solo resolver el sistema, sino también plantearlo correctamente a partir del enunciado e interpretar la solución obtenida.</p>\n<p style=\"text-align: justify;\"> <br /><strong>Pasos para resolver un problema</strong></p>\n<ul>\n<li style=\"text-align: justify;\">Leer y comprender el enunciado</li>\n<li style=\"text-align: justify;\">Identificar qué se pide y qué datos se proporcionan.</li>\n<li style=\"text-align: justify;\">Definir las incógnitas</li>\n<li style=\"text-align: justify;\">Asignar letras (por ejemplo, x, y) a las cantidades desconocidas.</li>\n<li style=\"text-align: justify;\">Traducir la información del problema a lenguaje algebraico.</li>\n<li style=\"text-align: justify;\">Plantear el sistema de ecuaciones.<br /></li>\n<li style=\"text-align: justify;\">Resolver el sistema.</li>\n<li style=\"text-align: justify;\">Utilizar el método más adecuado (sustitución, igualación, reducción o método gráfico).</li>\n<li style=\"text-align: justify;\">Interpretar la solución.</li>\n<li style=\"text-align: justify;\">Explicar el resultado en el contexto del problema.<br /></li>\n<li style=\"text-align: justify;\">Verificar que la solución cumple las condiciones del enunciado.</li>\n</ul>\n<p><strong>Dificultades habituales</strong></p>\n<ul>\n<li style=\"text-align: justify;\">Traducir correctamente el enunciado a ecuaciones.</li>\n<li style=\"text-align: justify;\">Elegir bien las incógnitas.</li>\n<li style=\"text-align: justify;\">Interpretar el resultado final (no quedarse solo en x e y).</li>\n</ul>\n<p><strong>Ejemplo guiado</strong></p>\n<p>En una papelería, dos cuadernos y un bolígrafo cuestan 5€. Un cuaderno y dos bolígrafos cuestan 4€. ¿Cuánto cuesta cada producto?</p>\n<p style=\"text-align: justify;\"> <br />1. Definimos las incógnitas:</p>\n<p style=\"text-align: justify;\">x: precio de un cuaderno<br />y: precio de un bolígrafo<br /> <br />2. Planteamos el sistema:</p>\n<p style=\"text-align: justify;\">2x+y=5</p>\n<p style=\"text-align: justify;\">x+2y=4</p>\n<p style=\"text-align: justify;\"><br />3. Resolvemos (por ejemplo, por reducción):</p>\n<p style=\"text-align: justify;\">Multiplicamos la segunda ecuación por 2:</p>\n<p style=\"text-align: justify;\">2x+4y=8</p>\n<p style=\"text-align: justify;\">Restamos la primera ecuación:</p>\n<p style=\"text-align: justify;\">(2x+4y)−(2x+y)=8−5</p>\n<p style=\"text-align: justify;\">3y=3</p>\n<p style=\"text-align: justify;\">y=1</p>\n<p style=\"text-align: justify;\">Sustituimos:</p>\n<p style=\"text-align: justify;\">x+2(1)=4</p>\n<p style=\"text-align: justify;\">x+2=4</p>\n<p style=\"text-align: justify;\">x=2</p>\n<p style=\"text-align: justify;\"> <br />4. Interpretamos la solución:</p>\n<p style=\"text-align: justify;\">Un cuaderno cuesta 2€<br />Un bolígrafo cuesta 1€<br /> <br /><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303515151-mpay7v4gz</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Ejercicios resueltos</pageName>
+  <odeNavStructureOrder>6</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Ejercicios resueltos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303515151-mpay7v4gz</odePageId>
+      <odeBlockId>block-1777366006305-wf952w5c8</odeBlockId>
+      <blockName>Ejercicios resueltos</blockName>
+      <iconName>present</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303515151-mpay7v4gz</odePageId>
+          <odeBlockId>block-1777366006305-wf952w5c8</odeBlockId>
+          <odeIdeviceId>idevice-1777366006301-tvtq8egto</odeIdeviceId>
+          <odeIdeviceTypeName>external-website</odeIdeviceTypeName>
+          <htmlView><![CDATA[      <div id="iframeWebsiteIdevice">       <iframe src="https://www.edu.xunta.gal/centros/iescastroalobrevilagarcia/system/files/Ejercicios%20de%20sistemas%20de%20ecuaciones.pdf" size="2" width="600" height="300" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      ]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303515151-mpay7v4gz</odePageId>
+      <odeBlockId>block-1777365887799-wi9uudw2i</odeBlockId>
+      <blockName>Problemas resueltos</blockName>
+      <iconName>present</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303515151-mpay7v4gz</odePageId>
+          <odeBlockId>block-1777365887799-wi9uudw2i</odeBlockId>
+          <odeIdeviceId>idevice-1777365887797-w23jwd2mn</odeIdeviceId>
+          <odeIdeviceTypeName>external-website</odeIdeviceTypeName>
+          <htmlView><![CDATA[      <div id="iframeWebsiteIdevice">       <iframe src="https://www.matematicasonline.es/cuarto-eso/ejercicios/PROBLEMAS_PARA_PLANTEAR_Y_RESOLVER_MEDIANTE_SISTEMAS_DE_ECUACIONES.pdf" size="2" width="600" height="300" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      ]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303606807-xv0cdazgb</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Diccionario de términos</pageName>
+  <odeNavStructureOrder>7</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Diccionario de términos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303606807-xv0cdazgb</odePageId>
+      <odeBlockId>block-1777303787881-as92pa5na</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303606807-xv0cdazgb</odePageId>
+          <odeBlockId>block-1777303787881-as92pa5na</odeBlockId>
+          <odeIdeviceId>idevice-1777303787868-42wud2emf</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p><strong>Sistema de ecuaciones: </strong>Conjunto de dos o más ecuaciones con las mismas incógnitas que se deben cumplir simultáneamente.</p>
+<p><strong>Incógnita :</strong>Valor desconocido que se representa con una letra (normalmente x, y).</p>
+<p><strong>Solución de un sistema: </strong>Conjunto de valores de las incógnitas que hacen verdaderas todas las ecuaciones del sistema.</p>
+<p><strong>Sistema compatible determinado (SCD): </strong>Tiene una única solución.</p>
+<p><strong>Sistema compatible indeterminado (SCI): </strong>Tiene infinitas soluciones.</p>
+<p><strong>Sistema incompatible (SI): </strong>No tiene solución.</p>
+<p><strong>Método de sustitución: </strong>Consiste en despejar una incógnita en una ecuación y sustituirla en la otra.</p>
+<p><strong>Método de igualación: </strong>Se despeja la misma incógnita en ambas ecuaciones y se igualan las expresiones obtenidas.</p>
+<p><strong>Método de reducción: </strong>Se suman o restan las ecuaciones para eliminar una incógnita.</p>
+<p><strong>Método gráfico:</strong> Se representan las ecuaciones como rectas en el plano. La solución es el punto de corte.</p>
+<p><strong>Ecuación lineal: </strong>Ecuación de primer grado cuya representación gráfica es una recta.</p>
+<p><strong>Coeficiente: </strong>Número que multiplica a una incógnita (por ejemplo, el 3 en 3x).</p>
+<p><strong>Término independiente: </strong>Número que aparece sin incógnita en una ecuación.</p>
+<p><strong>Despejar: </strong>Aislar una incógnita en una ecuación.</p>
+<p><strong>Sustituir: </strong>Reemplazar una incógnita por una expresión o valor equivalente.</p>
+<p><strong>Solución gráfica: </strong>Punto donde se cortan las rectas que representan el sistema.</p>
+<p><strong>Rectas secantes: </strong>Rectas que se cortan en un punto (sistema compatible determinado).</p>
+<p><strong>Rectas paralelas: </strong>Rectas que no se cortan (sistema incompatible).</p>
+<p><strong>Rectas coincidentes: </strong>Rectas que se superponen (sistema compatible indeterminado).</p>
+<p><strong>Comprobación de soluciones: </strong>Sustituir los valores obtenidos en las ecuaciones iniciales para verificar que son correctos.</p>
+<p><strong>Sistema equivalente: </strong>Sistema que tiene las mismas soluciones que otro, aunque sus ecuaciones sean diferentes.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777303787868-42wud2emf","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p><strong>Sistema de ecuaciones: </strong>Conjunto de dos o más ecuaciones con las mismas incógnitas que se deben cumplir simultáneamente.</p>\n<p><strong>Incógnita :</strong>Valor desconocido que se representa con una letra (normalmente x, y).</p>\n<p><strong>Solución de un sistema: </strong>Conjunto de valores de las incógnitas que hacen verdaderas todas las ecuaciones del sistema.</p>\n<p><strong>Sistema compatible determinado (SCD): </strong>Tiene una única solución.</p>\n<p><strong>Sistema compatible indeterminado (SCI): </strong>Tiene infinitas soluciones.</p>\n<p><strong>Sistema incompatible (SI): </strong>No tiene solución.</p>\n<p><strong>Método de sustitución: </strong>Consiste en despejar una incógnita en una ecuación y sustituirla en la otra.</p>\n<p><strong>Método de igualación: </strong>Se despeja la misma incógnita en ambas ecuaciones y se igualan las expresiones obtenidas.</p>\n<p><strong>Método de reducción: </strong>Se suman o restan las ecuaciones para eliminar una incógnita.</p>\n<p><strong>Método gráfico:</strong> Se representan las ecuaciones como rectas en el plano. La solución es el punto de corte.</p>\n<p><strong>Ecuación lineal: </strong>Ecuación de primer grado cuya representación gráfica es una recta.</p>\n<p><strong>Coeficiente: </strong>Número que multiplica a una incógnita (por ejemplo, el 3 en 3x).</p>\n<p><strong>Término independiente: </strong>Número que aparece sin incógnita en una ecuación.</p>\n<p><strong>Despejar: </strong>Aislar una incógnita en una ecuación.</p>\n<p><strong>Sustituir: </strong>Reemplazar una incógnita por una expresión o valor equivalente.</p>\n<p><strong>Solución gráfica: </strong>Punto donde se cortan las rectas que representan el sistema.</p>\n<p><strong>Rectas secantes: </strong>Rectas que se cortan en un punto (sistema compatible determinado).</p>\n<p><strong>Rectas paralelas: </strong>Rectas que no se cortan (sistema incompatible).</p>\n<p><strong>Rectas coincidentes: </strong>Rectas que se superponen (sistema compatible indeterminado).</p>\n<p><strong>Comprobación de soluciones: </strong>Sustituir los valores obtenidos en las ecuaciones iniciales para verificar que son correctos.</p>\n<p><strong>Sistema equivalente: </strong>Sistema que tiene las mismas soluciones que otro, aunque sus ecuaciones sean diferentes.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303546517-tnb7atsvk</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Actividades propuestas</pageName>
+  <odeNavStructureOrder>8</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Actividades propuestas</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303546517-tnb7atsvk</odePageId>
+      <odeBlockId>block-1777366454377-lvnklrgfj</odeBlockId>
+      <blockName></blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303546517-tnb7atsvk</odePageId>
+          <odeBlockId>block-1777366454377-lvnklrgfj</odeBlockId>
+          <odeIdeviceId>idevice-1777366454374-my0krkmfj</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">A continuación se presentan las actividades propuestas para esta Situación de Aprendizaje. Los productos generados en ambas actividades se entregarán a través de la tarea creada en el canal de clase de Teams.</p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777366454374-my0krkmfj","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">A continuación se presentan las actividades propuestas para esta Situación de Aprendizaje. Los productos generados en ambas actividades se entregarán a través de la tarea creada en el canal de clase de Teams.</p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303571818-w6muiavri</odePageId>
+  <odeParentPageId>page-1777303546517-tnb7atsvk</odeParentPageId>
+  <pageName>Diseño de una infografía</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Diseño de una infografía</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303571818-w6muiavri</odePageId>
+      <odeBlockId>block-1777451938027-kjk6osaz4</odeBlockId>
+      <blockName></blockName>
+      <iconName>activity</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303571818-w6muiavri</odePageId>
+          <odeBlockId>block-1777451938027-kjk6osaz4</odeBlockId>
+          <odeIdeviceId>idevice-1777451938025-rytht7wee</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">En esta actividad se deberá elaborar una <strong>infografía</strong> <strong>sobre un método de resolución de sistemas de ecuaciones</strong> (sustitución, igualación, reducción o gráfico), que será asignado en el aula. El objetivo es <strong>explicar dicho método de forma clara, visual y comprensible</strong>, incluyendo <strong>al menos un ejemplo resuelto</strong> paso a paso. Asimismo, deberá tenerse en cuenta que la infografía <strong>estará dirigida al grupo clase</strong>, es decir, debe ser un material que ayude a la compresión y al estudio del tema.</p>
+<p style="text-align: justify;">Antes de comenzar la elaboración digital, se deberá reflexionar sobre qué se quiere comunicar y cómo hacerlo. Para ello, será necesario realizar un <strong>boceto previo en papel</strong> en el que se recojan las ideas principales, la organización de los contenidos y los elementos visuales que se van a utilizar. Este paso permitirá estructurar adecuadamente la información antes de diseñar el producto final.</p>
+<p style="text-align: justify;">En caso de que sea necesario buscar información, se deberán utilizar f<strong>uentes fiables y adecuadas</strong>, como materiales educativos o recursos contrastados. Se deberá <strong>evitar copiar directamente la información</strong> y respetar en todo momento los derechos de autor, utilizando imágenes libres de uso o citando la fuente cuando corresponda.</p>
+<p style="text-align: justify;">Durante el uso de herramientas digitales y la consulta de información en Internet, se deberán seguir <strong>pautas básicas de seguridad digital</strong>, evitando compartir datos personales y haciendo un uso responsable de las aplicaciones recomendadas para la actividad.</p>
+<p style="text-align: justify;">La información recopilada deberá ser tratada adecuadamente mediante procesos de selección, organización y síntesis, <strong>priorizando los contenidos más relevantes y evitando textos excesivamente largos</strong>. Se deberá tener en cuenta que una infografía es un recurso visual, por lo que la <strong>claridad </strong>y la <strong>concisión </strong>son fundamentales.</p>
+<p style="text-align: justify;">El trabajo se realizará en grupo, por lo que será necesario establecer una organización interna mediante la <strong>asignación de roles</strong>, tales como coordinación, supervisión de contenidos, diseño o exposición, garantizando en todo momento la participación activa de todos los miembros del equipo.</p>
+<p style="text-align: justify;">Para la elaboración de la infografía se podrán emplear <strong>herramientas digitales como Canva, PowerPoint o Genially</strong>, para lo cual se facilitarán orientaciones y recursos que permitan su uso adecuado.</p>
+<p style="text-align: justify;">Se deberá prestar especial atención a la <strong>comunicación visual</strong>, utilizando elementos como esquemas, diagramas, pasos numerados, ejemplos o representaciones gráficas que faciliten la comprensión del contenido. Se recomienda priorizar el uso de recursos visuales frente a textos extensos, favoreciendo así una presentación clara y atractiva de la información.</p>
+<p style="text-align: justify;">Además, la infografía <strong>deberá incluir al menos un elemento interactivo</strong>, que permita al usuario participar activamente en el contenido. Por ejemplo, se pueden incorporar botones o enlaces que muestren información adicional, desplegables con pasos del procedimiento, pequeños cuestionarios o preguntas de comprobación, o animaciones que revelen la solución paso a paso.</p>
+<p style="text-align: justify;">Asimismo, en algún lugar visible de la infografía <strong>deberán aparecer los siguientes datos: nombre del centro educativo, curso, materia, nombre del profesor y fecha de realización (mes y año)</strong>.</p>
+<p style="text-align: justify;">Finalmente, se deberá garantizar la <strong>accesibilidad de la infografía</strong>, utilizando tipos de letra legibles, una adecuada combinación de colores que asegure el contraste entre fondo y texto, y evitando la sobrecarga de información. El producto final deberá permitir que cualquier persona pueda comprender el método explicado de manera autónoma y sin dificultad.</p>
+<p style="text-align: justify;">A continuación se incluye la <strong>rúbrica de la actividad</strong> para que sirva de guía a la hora de su realización.</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777451938025-rytht7wee","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">En esta actividad se deberá elaborar una <strong>infografía</strong> <strong>sobre un método de resolución de sistemas de ecuaciones</strong> (sustitución, igualación, reducción o gráfico), que será asignado en el aula. El objetivo es <strong>explicar dicho método de forma clara, visual y comprensible</strong>, incluyendo <strong>al menos un ejemplo resuelto</strong> paso a paso. Asimismo, deberá tenerse en cuenta que la infografía <strong>estará dirigida al grupo clase</strong>, es decir, debe ser un material que ayude a la compresión y al estudio del tema.</p>\n<p style=\"text-align: justify;\">Antes de comenzar la elaboración digital, se deberá reflexionar sobre qué se quiere comunicar y cómo hacerlo. Para ello, será necesario realizar un <strong>boceto previo en papel</strong> en el que se recojan las ideas principales, la organización de los contenidos y los elementos visuales que se van a utilizar. Este paso permitirá estructurar adecuadamente la información antes de diseñar el producto final.</p>\n<p style=\"text-align: justify;\">En caso de que sea necesario buscar información, se deberán utilizar f<strong>uentes fiables y adecuadas</strong>, como materiales educativos o recursos contrastados. Se deberá <strong>evitar copiar directamente la información</strong> y respetar en todo momento los derechos de autor, utilizando imágenes libres de uso o citando la fuente cuando corresponda.</p>\n<p style=\"text-align: justify;\">Durante el uso de herramientas digitales y la consulta de información en Internet, se deberán seguir <strong>pautas básicas de seguridad digital</strong>, evitando compartir datos personales y haciendo un uso responsable de las aplicaciones recomendadas para la actividad.</p>\n<p style=\"text-align: justify;\">La información recopilada deberá ser tratada adecuadamente mediante procesos de selección, organización y síntesis, <strong>priorizando los contenidos más relevantes y evitando textos excesivamente largos</strong>. Se deberá tener en cuenta que una infografía es un recurso visual, por lo que la <strong>claridad </strong>y la <strong>concisión </strong>son fundamentales.</p>\n<p style=\"text-align: justify;\">El trabajo se realizará en grupo, por lo que será necesario establecer una organización interna mediante la <strong>asignación de roles</strong>, tales como coordinación, supervisión de contenidos, diseño o exposición, garantizando en todo momento la participación activa de todos los miembros del equipo.</p>\n<p style=\"text-align: justify;\">Para la elaboración de la infografía se podrán emplear <strong>herramientas digitales como Canva, PowerPoint o Genially</strong>, para lo cual se facilitarán orientaciones y recursos que permitan su uso adecuado.</p>\n<p style=\"text-align: justify;\">Se deberá prestar especial atención a la <strong>comunicación visual</strong>, utilizando elementos como esquemas, diagramas, pasos numerados, ejemplos o representaciones gráficas que faciliten la comprensión del contenido. Se recomienda priorizar el uso de recursos visuales frente a textos extensos, favoreciendo así una presentación clara y atractiva de la información.</p>\n<p style=\"text-align: justify;\">Además, la infografía <strong>deberá incluir al menos un elemento interactivo</strong>, que permita al usuario participar activamente en el contenido. Por ejemplo, se pueden incorporar botones o enlaces que muestren información adicional, desplegables con pasos del procedimiento, pequeños cuestionarios o preguntas de comprobación, o animaciones que revelen la solución paso a paso.</p>\n<p style=\"text-align: justify;\">Asimismo, en algún lugar visible de la infografía <strong>deberán aparecer los siguientes datos: nombre del centro educativo, curso, materia, nombre del profesor y fecha de realización (mes y año)</strong>.</p>\n<p style=\"text-align: justify;\">Finalmente, se deberá garantizar la <strong>accesibilidad de la infografía</strong>, utilizando tipos de letra legibles, una adecuada combinación de colores que asegure el contraste entre fondo y texto, y evitando la sobrecarga de información. El producto final deberá permitir que cualquier persona pueda comprender el método explicado de manera autónoma y sin dificultad.</p>\n<p style=\"text-align: justify;\">A continuación se incluye la <strong>rúbrica de la actividad</strong> para que sirva de guía a la hora de su realización.</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303571818-w6muiavri</odePageId>
+      <odeBlockId>block-1777452964394-od1wg4u0c</odeBlockId>
+      <blockName>Rúbrica de la actividad</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303571818-w6muiavri</odePageId>
+          <odeBlockId>block-1777452964394-od1wg4u0c</odeBlockId>
+          <odeIdeviceId>idevice-1777452964391-lv4vvxilr</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1777452964391-lv4vvxilr" title="" href="{{context_path}}/content/resources/RI1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/RI1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1777452964391-lv4vvxilr" title="" href="{{context_path}}/content/resources/RI2.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/RI2.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777452964391-lv4vvxilr","img_0":{"img":"{{context_path}}/content/resources/RI1.jpg","thumbnail":"{{context_path}}/content/resources/RI1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/RI2.jpg","thumbnail":"{{context_path}}/content/resources/RI2.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303588550-8spv4ti8v</odePageId>
+  <odeParentPageId>page-1777303546517-tnb7atsvk</odeParentPageId>
+  <pageName>Creación de un vídeo explicativo</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Creación de un vídeo explicativo</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303588550-8spv4ti8v</odePageId>
+      <odeBlockId>block-1777453435084-207ual9ff</odeBlockId>
+      <blockName></blockName>
+      <iconName>video</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303588550-8spv4ti8v</odePageId>
+          <odeBlockId>block-1777453435084-207ual9ff</odeBlockId>
+          <odeIdeviceId>idevice-1777453435081-g0pnfkto3</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p style="text-align: justify;">En esta actividad se deberá elaborar un <strong>vídeo explicativo</strong> sobre un método de resolución de sistemas de ecuaciones (sustitución, igualación, reducción o gráfico), que será asignado en el aula. El objetivo es <strong>explicar </strong>dicho método <strong>de forma clara, comprensible y didáctica</strong>, incluyendo <strong>al menos un ejemplo resuelto</strong> paso a paso. Asimismo, deberá tenerse en cuenta que la infografía estará <strong>dirigida al grupo clase</strong>, es decir, debe ser un material que ayude a la compresión y al estudio del tema.</p>
+<p style="text-align: justify;">Antes de comenzar la grabación, se deberá reflexionar sobre qué se quiere comunicar y cómo hacerlo. Para ello, será obligatorio elaborar un <strong>guion literario previo</strong>, en el que se recojan los contenidos, el orden de la explicación y los elementos que se van a incluir (explicaciones, ejemplos, intervenciones, etc.). Este guion permitirá estructurar el mensaje y asegurar la claridad del vídeo.</p>
+<p style="text-align: justify;">En caso de que sea necesario buscar información, se deberán utilizar <strong>fuentes fiables y adecuadas</strong>, como materiales educativos o recursos contrastados. Se deberá <strong>evitar copiar directamente la información</strong> y respetar los derechos de autor, especialmente en el uso de imágenes, música o vídeos, utilizando recursos libres o citando la fuente cuando corresponda.</p>
+<p style="text-align: justify;">Durante el uso de herramientas digitales y la consulta de información en Internet, se deberán seguir <strong>pautas básicas de seguridad digital</strong>, evitando compartir datos personales y haciendo un uso responsable de las aplicaciones recomendadas para la actividad.</p>
+<p style="text-align: justify;">La información recopilada deberá ser tratada adecuadamente mediante procesos de selección, organización y síntesis, priorizando los contenidos más relevantes y <strong>evitando explicaciones excesivamente largas o poco claras</strong>. El vídeo debe ser <strong>conciso, claro y adaptado</strong> al público al que se dirige, y deberá permitir que cualquier persona pueda comprender el método explicado de manera autónoma, clara y sin dificultad.<br /></p>
+<p style="text-align: justify;">El trabajo se realizará en grupo, por lo que será necesario establecer una organización interna mediante la <strong>asignación de roles</strong>, tales como guionista, narrador/a, responsable de grabación, editor/a o coordinador/a, garantizando en todo momento la <strong>participación activa de todos los miembros</strong> del equipo.</p>
+<p style="text-align: justify;">Además del guion literario, se deberá elaborar un <strong>guion técnico o escaleta</strong>, en el que se especifiquen aspectos como las escenas, tiempos aproximados, tipo de plano, recursos visuales o intervenciones de cada miembro. Esto facilitará la planificación y grabación del vídeo.</p>
+<p style="text-align: justify;">Para la elaboración y edición del vídeo se podrán emplear <strong>herramientas digitales</strong> como Canva, CapCut o iMovie, para lo cual se facilitarán orientaciones y recursos que permitan su uso adecuado.</p>
+<p style="text-align: justify;">Se deberá prestar especial atención a la comunicación audiovisual, cuidando aspectos como la <strong>claridad en la explicación</strong>, el <strong>uso adecuado del lenguaje matemático</strong>, la <strong>calidad del audio</strong>, la <strong>iluminación </strong>y la <strong>organización visual</strong> del contenido.</p>
+<p style="text-align: justify;">Asimismo, se deberá garantizar la <strong>accesibilidad del vídeo</strong>, procurando que el contenido sea comprensible para cualquier persona. Para ello, se recomienda utilizar subtítulos, buena calidad de sonido, ritmo adecuado en la explicación y elementos visuales que refuercen el contenido.</p>
+<p style="text-align: justify;">En algún momento del vídeo <strong>deberán aparecer</strong> de forma visible los siguientes datos: <strong>nombre del centro educativo, curso, materia, nombre del profesor y fecha de realización (mes y año)</strong>.</p>
+<p style="text-align: justify;"> A continuación se incluye la <strong>rúbrica de la actividad</strong> para que sirva de guía a la hora de su realización.<br /> </p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777453435081-g0pnfkto3","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p style=\"text-align: justify;\">En esta actividad se deberá elaborar un <strong>vídeo explicativo</strong> sobre un método de resolución de sistemas de ecuaciones (sustitución, igualación, reducción o gráfico), que será asignado en el aula. El objetivo es <strong>explicar </strong>dicho método <strong>de forma clara, comprensible y didáctica</strong>, incluyendo <strong>al menos un ejemplo resuelto</strong> paso a paso. Asimismo, deberá tenerse en cuenta que la infografía estará <strong>dirigida al grupo clase</strong>, es decir, debe ser un material que ayude a la compresión y al estudio del tema.</p>\n<p style=\"text-align: justify;\">Antes de comenzar la grabación, se deberá reflexionar sobre qué se quiere comunicar y cómo hacerlo. Para ello, será obligatorio elaborar un <strong>guion literario previo</strong>, en el que se recojan los contenidos, el orden de la explicación y los elementos que se van a incluir (explicaciones, ejemplos, intervenciones, etc.). Este guion permitirá estructurar el mensaje y asegurar la claridad del vídeo.</p>\n<p style=\"text-align: justify;\">En caso de que sea necesario buscar información, se deberán utilizar <strong>fuentes fiables y adecuadas</strong>, como materiales educativos o recursos contrastados. Se deberá <strong>evitar copiar directamente la información</strong> y respetar los derechos de autor, especialmente en el uso de imágenes, música o vídeos, utilizando recursos libres o citando la fuente cuando corresponda.</p>\n<p style=\"text-align: justify;\">Durante el uso de herramientas digitales y la consulta de información en Internet, se deberán seguir <strong>pautas básicas de seguridad digital</strong>, evitando compartir datos personales y haciendo un uso responsable de las aplicaciones recomendadas para la actividad.</p>\n<p style=\"text-align: justify;\">La información recopilada deberá ser tratada adecuadamente mediante procesos de selección, organización y síntesis, priorizando los contenidos más relevantes y <strong>evitando explicaciones excesivamente largas o poco claras</strong>. El vídeo debe ser <strong>conciso, claro y adaptado</strong> al público al que se dirige, y deberá permitir que cualquier persona pueda comprender el método explicado de manera autónoma, clara y sin dificultad.<br /></p>\n<p style=\"text-align: justify;\">El trabajo se realizará en grupo, por lo que será necesario establecer una organización interna mediante la <strong>asignación de roles</strong>, tales como guionista, narrador/a, responsable de grabación, editor/a o coordinador/a, garantizando en todo momento la <strong>participación activa de todos los miembros</strong> del equipo.</p>\n<p style=\"text-align: justify;\">Además del guion literario, se deberá elaborar un <strong>guion técnico o escaleta</strong>, en el que se especifiquen aspectos como las escenas, tiempos aproximados, tipo de plano, recursos visuales o intervenciones de cada miembro. Esto facilitará la planificación y grabación del vídeo.</p>\n<p style=\"text-align: justify;\">Para la elaboración y edición del vídeo se podrán emplear <strong>herramientas digitales</strong> como Canva, CapCut o iMovie, para lo cual se facilitarán orientaciones y recursos que permitan su uso adecuado.</p>\n<p style=\"text-align: justify;\">Se deberá prestar especial atención a la comunicación audiovisual, cuidando aspectos como la <strong>claridad en la explicación</strong>, el <strong>uso adecuado del lenguaje matemático</strong>, la <strong>calidad del audio</strong>, la <strong>iluminación </strong>y la <strong>organización visual</strong> del contenido.</p>\n<p style=\"text-align: justify;\">Asimismo, se deberá garantizar la <strong>accesibilidad del vídeo</strong>, procurando que el contenido sea comprensible para cualquier persona. Para ello, se recomienda utilizar subtítulos, buena calidad de sonido, ritmo adecuado en la explicación y elementos visuales que refuercen el contenido.</p>\n<p style=\"text-align: justify;\">En algún momento del vídeo <strong>deberán aparecer</strong> de forma visible los siguientes datos: <strong>nombre del centro educativo, curso, materia, nombre del profesor y fecha de realización (mes y año)</strong>.</p>\n<p style=\"text-align: justify;\"> A continuación se incluye la <strong>rúbrica de la actividad</strong> para que sirva de guía a la hora de su realización.<br /> </p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303588550-8spv4ti8v</odePageId>
+      <odeBlockId>block-1777454104680-7ae0r7jt1</odeBlockId>
+      <blockName>Rúbrica de la actividad</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303588550-8spv4ti8v</odePageId>
+          <odeBlockId>block-1777454104680-7ae0r7jt1</odeBlockId>
+          <odeIdeviceId>idevice-1777454104678-x5ws3c1qc</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1777454104678-x5ws3c1qc" title="" href="{{context_path}}/content/resources/RV1.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/RV1.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1777454104678-x5ws3c1qc" title="" href="{{context_path}}/content/resources/RV2.jpg" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/RV2.jpg" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1777454104678-x5ws3c1qc","img_0":{"img":"{{context_path}}/content/resources/RV1.jpg","thumbnail":"{{context_path}}/content/resources/RV1.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/RV2.jpg","thumbnail":"{{context_path}}/content/resources/RV2.jpg","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777303627385-vd4f26la1</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Juegos</pageName>
+  <odeNavStructureOrder>9</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Juegos</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777303627385-vd4f26la1</odePageId>
+      <odeBlockId>block-1777454143721-14o6ziekg</odeBlockId>
+      <blockName>Rosco</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303627385-vd4f26la1</odePageId>
+          <odeBlockId>block-1777454143721-14o6ziekg</odeBlockId>
+          <odeIdeviceId>idevice-1777454143719-17i07irdx</odeIdeviceId>
+          <odeIdeviceTypeName>az-quiz-game</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="rosco-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1777454143719-17i07irdx" data-evaluationb="false" data-evaluationid="3a5a93de-6a95-486b-9b37-7a6a905fea57"></div><div class="rosco-version js-hidden">2</div><div class="rosco-instructions"><p>Observa las letras, identifica y rellena las palabras que faltan.</p></div><div class="rosco-DataGame js-hidden">%E9%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C0%FD%E1%F1%FD%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%AE%E2%AC%DD%F0%E1%F7%E0%E4%F3%B2%FE%F3%E1%B2%FE%F7%E6%E0%F3%E1%BE%B2%FB%F6%F7%FC%E6%FB%F4%FB%F1%F3%B2%EB%B2%E0%F7%FE%FE%F7%FC%F3%B2%FE%F3%E1%B2%E2%F3%FE%F3%F0%E0%F3%E1%B2%E3%E7%F7%B2%F4%F3%FE%E6%F3%FC%BC%AE%BD%E2%AC%B0%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%F6%E7%E0%F3%E6%FB%FD%FC%D5%F3%FF%F7%B0%A8%A0%A6%A2%BE%B0%FC%E7%FF%F0%F7%E0%C6%E7%E0%FC%E1%B0%A8%A3%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E5%FD%E0%F6%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D3%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0S%FE%F5%F7%F0%E0%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C2%F3%E0%E6%F7%B2%F6%F7%B2%FE%F3%E1%B2%FF%F3%E6%F7%FFs%E6%FB%F1%F3%E1%B2%E3%E7%F7%B2%E7%E6%FB%FE%FB%E8%F3%B2%FE%F7%E6%E0%F3%E1%B2%EB%B2%E1%7F%FF%F0%FD%FE%FD%E1%B2%E2%F3%E0%F3%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%E0%B2%FCh%FF%F7%E0%FD%E1%B2%EB%B2%E0%F7%FE%F3%F1%FB%FD%FC%F7%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D0%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D1%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D1%FD%FF%E2%F3%E6%FB%F0%FE%F7%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C1%FB%E1%E6%F7%FF%F3%B2%E3%E7%F7%B2%E6%FB%F7%FC%F7%B2%F3%FE%B2%FF%F7%FC%FD%E1%B2%E7%FC%F3%B2%E1%FD%FE%E7%F1%FBa%FC%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D6%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D6%F7%E1%E2%F7%F8%F3%E0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D3%FB%E1%FE%F3%E0%B2%E7%FC%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%B2%F7%FC%B2%E7%FC%F3%B2%F7%F1%E7%F3%F1%FBa%FC%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D7%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D7%F1%E7%F3%F1%FBa%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DB%F5%E7%F3%FE%F6%F3%F6%B2%FF%F3%E6%F7%FFs%E6%FB%F1%F3%B2%E3%E7%F7%B2%F1%FD%FC%E6%FB%F7%FC%F7%B2%E7%FC%F3%B2%FD%B2%FFs%E1%B2%FB%FC%F1a%F5%FC%FB%E6%F3%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D4%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D5%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D5%E0s%F4%FB%F1%FD%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%E3%E7%F7%B2%E7%E6%FB%FE%FB%E8%F3%B2%E0%F7%F1%E6%F3%E1%B2%E2%F3%E0%F3%B2%F7%FC%F1%FD%FC%E6%E0%F3%E0%B2%FE%F3%B2%E1%FD%FE%E7%F1%FBa%FC%B2%F6%F7%B2%E7%FC%B2%E1%FB%E1%E6%F7%FF%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DA%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%DA%F3%FE%FE%F3%E0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D7%FC%F1%FD%FC%E6%E0%F3%E0%B2%FE%F3%B2%E1%FD%FE%E7%F1%FBa%FC%B2%F6%F7%B2%E7%FC%B2%E1%FB%E1%E6%F7%FF%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DB%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%DB%FC%F1a%F5%FC%FB%E6%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C4%F3%FE%FD%E0%B2%F6%F7%E1%F1%FD%FC%FD%F1%FB%F6%FD%B2%E3%E7%F7%B2%E1%F7%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%B2%F1%FD%FC%B2%E7%FC%F3%B2%FE%F7%E6%E0%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D8%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D8%E7%E1%E6%FB%F4%FB%F1%F3%F1%FBa%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D7%EA%E2%FE%FB%F1%F3%F1%FBa%FC%B2%F6%F7%B2%FE%FD%E1%B2%E2%F3%E1%FD%E1%B2%E1%F7%F5%E7%FB%F6%FD%E1%B2%F7%FC%B2%FE%F3%B2%E0%F7%E1%FD%FE%E7%F1%FBa%FC%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%D9%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DE%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%DE%FB%FC%F7%F3%FE%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C6%FB%E2%FD%B2%F6%F7%B2%F7%F1%E7%F3%F1%FBa%FC%B2%F6%F7%B2%E2%E0%FB%FF%F7%E0%B2%F5%E0%F3%F6%FD%B2%F1%E7%EB%F3%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%F1%FBa%FC%B2%F7%E1%B2%E7%FC%F3%B2%E0%F7%F1%E6%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DF%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%DF%7B%E6%FD%F6%FD%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C2%E0%FD%F1%F7%F6%FB%FF%FB%F7%FC%E6%FD%B2%E2%F3%E0%F3%B2%E0%F7%E1%FD%FE%E4%F7%E0%B2%E7%FC%B2%E1%FB%E1%E6%F7%FF%F3%B2%BA%E1%E7%E1%E6%FB%E6%E7%F1%FBa%FC%BE%B2%FB%F5%E7%F3%FE%F3%F1%FBa%FC%BE%B2%E0%F7%F6%E7%F1%F1%FBa%FC%BB%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DC%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%DCh%FF%F7%E0%FD%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C0%F7%E1%E7%FE%E6%F3%F6%FD%B2%E3%E7%F7%B2%E1%F7%B2%FD%F0%E6%FB%F7%FC%F7%B2%F1%FD%FF%FD%B2%E1%FD%FE%E7%F1%FBa%FC%B2%F6%F7%FE%B2%E1%FB%E1%E6%F7%FF%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0C%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%DD%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C1%FD%FE%E7%F1%FBa%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D1%FD%FC%F8%E7%FC%E6%FD%B2%F6%F7%B2%E4%F3%FE%FD%E0%F7%E1%B2%E3%E7%F7%B2%E4%F7%E0%FB%F4%FB%F1%F3%B2%F7%FE%B2%E1%FB%E1%E6%F7%FF%F3%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A3%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C2%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C2%F3%E0%F3%FE%F7%FE%F3%E1%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C0%F7%F1%E6%F3%E1%B2%E3%E7%F7%B2%FC%FD%B2%E1%F7%B2%F1%FD%E0%E6%F3%FC%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C3%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%D7%E3%E7%FB%E4%F3%FE%F7%FC%E6%F7%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C1%FB%E1%E6%F7%FF%F3%B2%E3%E7%F7%B2%E6%FB%F7%FC%F7%B2%FE%F3%E1%B2%FF%FB%E1%FF%F3%E1%B2%E1%FD%FE%E7%F1%FB%FD%FC%F7%E1%B2%E3%E7%F7%B2%FD%E6%E0%FD%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A3%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C0%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C0%F7%F6%E7%F1%F1%FBa%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%E3%E7%F7%B2%F7%FE%FB%FF%FB%FC%F3%B2%E7%FC%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%B2%E1%E7%FF%F3%FC%F6%FD%B2%FD%B2%E0%F7%E1%E6%F3%FC%F6%FD%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C1%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C1%FB%E1%E6%F7%FF%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D1%FD%FC%F8%E7%FC%E6%FD%B2%F6%F7%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%F1%FD%FC%B2%FE%F3%E1%B2%FF%FB%E1%FF%F3%E1%B2%FB%FC%F1a%F5%FC%FB%E6%F3%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C6%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C6%F3%F0%FE%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D4%FD%E0%FF%F3%B2%F6%F7%B2%FD%E0%F5%F3%FC%FB%E8%F3%E0%B2%E4%F3%FE%FD%E0%F7%E1%B2%E2%F3%E0%F3%B2%F7%FC%E6%F7%FC%F6%F7%E0%B2%E0%F7%FE%F3%F1%FB%FD%FC%F7%E1%B2%F7%FC%E6%E0%F7%B2%E4%F3%E0%FB%F3%F0%FE%F7%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C7%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0H%FC%FB%F1%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D1%F3%E0%F3%F1%E6%F7%E0%7F%E1%E6%FB%F1%F3%B2%F6%F7%B2%E7%FC%B2%E1%FB%E1%E6%F7%FF%F3%B2%F1%FD%FC%B2%E7%FC%F3%B2%E1%FD%FE%F3%B2%E1%FD%FE%E7%F1%FBa%FC%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C4%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C4%F3%E0%FB%F3%F0%FE%F7%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DE%F7%E6%E0%F3%B2%E3%E7%F7%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%B2%E7%FC%B2%E4%F3%FE%FD%E0%B2%F6%F7%E1%F1%FD%FC%FD%F1%FB%F6%FD%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C5%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%C5%F7%F0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C0%F7%F1%E7%E0%E1%FD%B2%F6%FB%F5%FB%E6%F3%FE%B2%F6%FD%FC%F6%F7%B2%E1%F7%B2%E2%E7%F7%F6%F7%B2%F0%E7%E1%F1%F3%E0%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B2%FD%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%E0%B2%F5%E0s%F4%FB%F1%F3%E1%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%CA%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%CA%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D7%F8%F7%B2%FA%FD%E0%FB%E8%FD%FC%E6%F3%FE%B2%F7%FC%B2%F7%FE%B2%E2%FE%F3%FC%FD%B2%F1%F3%E0%E6%F7%E1%FB%F3%FC%FD%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%CB%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%CB%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D7%F8%F7%B2%E4%F7%E0%E6%FB%F1%F3%FE%B2%F7%FC%B2%F7%FE%B2%E2%FE%F3%FC%FD%B2%F1%F3%E0%E6%F7%E1%FB%F3%FC%FD%BC%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%BE%E9%B0%FE%F7%E6%E6%F7%E0%B0%A8%B0%C8%B0%BE%B0%E5%FD%E0%F6%B0%A8%B0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%D5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%FE%F7%E6%E6%F7%E0%E1%B0%A8%B0%D3%D0%D1%D6%D7%D4%D5%DA%DB%D8%D9%DE%DF%DCC%DD%C2%C3%C0%C1%C6%C7%C4%C5%CA%CB%C8%B0%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%F1%F3%E1%F7%C1%F7%FC%E1%FB%E6%FB%E4%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%FF%FD%F6%F7%D0%FD%F3%E0%F6%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A1%F3%A7%F3%AB%A1%F6%F7%BF%A4%F3%AB%A7%BF%A6%AA%A4%F0%BF%AB%F0%A1%A5%BF%A5%F3%A4%F3%AB%A2%A7%F4%F7%F3%A7%A5%B0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%A5%A5%A6%A7%A6%A3%A6%A1%A5%A3%AB%BF%A3%A5%FB%A2%A5%FB%E0%F6%EA%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C0%F7%F3%F6%EB%B0%A8%B0-%C2%E0%F7%E2%F3%E0%F3%F6%FD%AD%B0%BE%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F7%FF%E2%F7%E8%F3%E0%B0%BE%B0%FF%E1%F5%DA%F3%E2%E2%F7%FC%B0%A8%B0%C2%F3%E1%F3%E0%B0%BE%B0%FF%E1%F5%C0%F7%E2%FE%EB%B0%A8%B0%C0%F7%E1%E2%FD%FC%F6%F7%E0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%D7%FC%E4%FB%F3%E0%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%F1%F7%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B2%FC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%D5%F3%FF%F7%DD%E4%F7%E0%B0%A8%B03%D4%FB%FC%B2%F6%F7%B2%FE%F3%B2%E2%F3%E0%E6%FB%F6%F3%B3%B0%BE%B0%FF%E1%F5%DC%F7%E5%C5%FD%E0%F6%B0%A8%B0%C2%F3%FE%F3%F0%E0%F3%B2%FC%E7%F7%E4%F3%B0%BE%B0%FF%E1%F5%C1%E6%F3%E0%E6%C5%FB%E6%FA%B0%A8%B0%D7%FF%E2%FB%F7%E8%F3%B2%E2%FD%E0%B2%B7%A3%B0%BE%B0%FF%E1%F5%D1%FD%FC%E6%F3%FB%FC%E6%B0%A8%B0%D1%FD%FC%E6%FB%F7%FC%F7%B2%FE%F3%B2%FE%F7%E6%E0%F3%B2%B7%A3%B0%BE%B0%FF%E1%F5%C2%F3%E1%E1%B0%A8%B0%C2%F3%E1%F3%E0%B2%F3%B2%FE%F3%B2%E1%FB%F5%E7%FB%F7%FC%E6%F7%B2%E2%F3%FE%F3%F0%E0%F3%B0%BE%B0%FF%E1%F5%DB%FC%F6%FB%F1%F3%E6%F7%C5%FD%E0%F6%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%F1%F7%B2%E7%FC%F3%B2%E2%F3%FE%F3%F0%E0%F3%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B03%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%E2%FB%E1%E6%F3%B2%F7%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F7%FF%E2%F7%E8%F3%E0%B2%FD%E6%E0%F3%B2%E2%F3%E0%E6%FB%F6%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DA%F3%E1%B0%A8%B0%C6%FB%F7%FC%F7%B2%B7%A3%B2%F3%F1%FB%F7%E0%E6%FD%E1%B2%EB%B2%B7%A0%B2%F4%F3%FE%FE%FD%E1%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%D3%F5%F3%FB%FC%B0%A8%B0%D8%E7%F5%F3%E0%B2%FD%E6%E0%F3%B2%E4%F7%E8%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%D7%E1%B2%FC%F7%F1%F7%E1%F3%E0%FB%FD%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%DE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B2%E3%E7%F7%B2%F7%E1%E6%F3%F0%F3%B2%F0%E7%E1%F1%F3%FC%F6%FD%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F8%E7%F5%F3%E0%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%D3%F1%FB%F7%E0%E6%FD%E1%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%D7%E0%E0%FD%E0%F7%E1%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%DE%7F%FF%FB%E6%F7%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B2%BA%FF%FF%A8%E1%E1%BB%B0%BE%B0%FF%E1%F5%DD%FC%F7%C0%FD%E7%FC%F6%B0%A8%B0%C7%FC%F3%B2%E4%E7%F7%FE%E6%F3%B0%BE%B0%FF%E1%F5%C6%FD%E5%C0%FD%E7%FC%F6%E1%B0%A8%B0%D6%FD%E1%B2%E4%E7%F7%FE%E6%F3%E1%B0%BE%B0%FF%E1%F5%DB%FF%F3%F5%F7%B0%A8%B0%DB%FF%F3%F5%F7%FC%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%C1%FB%FC%B2%FB%FF%F3%F5%F7%FC%B0%BE%B0%FF%E1%F5%C5%E0%FD%E6%F7%B0%A8%B0%D7%E1%F1%E0%FB%F0%F7%B2%FE%F3%B2%E2%F3%FE%F3%F0%E0%F3%B2%F1%FD%E0%E0%F7%F1%E6%F3%B2%EB%B2%E2%E7%FE%E1%F3%B2%F7%FC%B2%C0%F7%E1%E2%FD%FC%F6%F7%E0%BC%B2%C1%FB%B2%F6%E7%F6%F3%E1%BE%B2%E2%E7%FE%E1%F3%B2%F7%FC%B2%C1%F7%F5%E7%FB%E0%BC%B0%BE%B0%FF%E1%F5%DC%FD%E6%DC%F7%E6%E5%FD%E0%F9%B0%A8%B0%D3%B2%F7%E1%E6%F7%B2%F8%E7%F7%F5%FD%B2%E1%FD%FE%FD%B2%E1%F7%B2%E2%E7%F7%F6%F7%B2%F8%E7%F5%F3%E0%B2%F1%FD%FC%B2%F1%FD%FC%F7%EA%FBa%FC%B2%F3%B2%FB%FC%E6%F7%E0%FC%F7%E6%BC%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%D1%FD%FF%FB%F7%FC%F1%F7%B2%FE%F3%B2%E2%F3%E0%E6%FB%F6%F3%B2%F3%FC%E6%F7%E1%B2%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%BC%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%FC%FD%B2%E1%F7%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E2%FD%E0%E3%E7%F7%B2%F7%E1%E6%F3%B2%E2s%F5%FB%FC%F3%B2%FC%FD%B2%F4%FD%E0%FF%F3%B2%E2%F3%E0%E6%F7%B2%B2%F6%F7%B2%E7%FC%B2%E2%F3%E3%E7%F7%E6%F7%B2%C1%D1%DD%C0%DF%BC%B0%BE%B0%FF%E1%F5%C1%FA%FD%E5%C0%FD%E7%FE%F7%E6%E6%F7%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%F7%FE%B2%E0%FD%E1%F1%FD%B2%F6%F7%B2%E2%F3%FE%F3%F0%E0%F3%E1%B0%BE%B0%FF%E1%F5%DA%FB%F6%F7%C0%FD%E7%FE%F7%E6%E6%F7%B0%A8%B0%DD%F1%E7%FE%E6%F3%E0%B2%F7%FE%B2%E0%FD%E1%F1%FD%B2%F6%F7%B2%E2%F3%FE%F3%F0%E0%F3%E1%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%C2%E0%F7%F5%E7%FC%E6%F3%B0%BE%B0%FF%E1%F5%D3%FC%E1%E5%F7%E0%B0%A8%B0%C0%F7%E1%E2%FD%FC%F6%F7%E0%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B03%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E7%FC%F3%B2%E4%F7%E8%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%DB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B2%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F8%E7%F5%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F3%E7%E6%FD%FFs%E6%FB%F1%F3%FF%F7%FC%E6%F7%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FD%E0%7F%F3%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E6%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%F1%FD%FF%FD%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2h%FE%E6%FB%FF%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%F5%E7%F3%E0%F6%F3%F6%F3%B2%F7%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%F3%B2%FA%F3%B2%E0%F7%F3%FE%FB%E8%F3%F6%FD%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%C2%E7%F7%F6%F7%B2%E0%F7%F3%FE%FB%E8%F3%E0%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B2%F1%E7%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C2%F3%FC%E6%F3%FE%FE%F3%B2%D1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C1%F3%FE%FB%E0%B2%F6%F7%FE%B2%FF%FD%F6%FD%B2%E2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%DF%FD%E4%F7%DD%FC%F7%B0%A8%B0%C2%F3%E1%F3%E0%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D1%FD%E0%E0%F7%F1%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%DB%FC%F1%FD%E0%E0%F7%F1%E6%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%C5%FA%FB%E6%F7%D0%FD%F3%E0%F6%B0%A8%B0%C2%FB%E8%F3%E0%E0%F3%B2%F6%FB%F5%FB%E6%F3%FE%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%D1%F7%E0%E0%F3%E0%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%F3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C0%FD%E1%F1%FD%B0%BE%B0%FF%E1%F5%C1%FA%FD%E5%C5%FD%E0%F6%E1%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%FE%F3%E1%B2%E1%FD%FE%E7%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%D3%FE%FE%B0%A8%B0%C6%FD%F6%F3%E1%B0%BE%B0%FF%E1%F5%C7%FC%F3%FC%E1%E5%F7%E0%F7%F6%B0%A8%B0%C1%FB%FC%B2%F1%FD%FC%E6%F7%E1%E6%F3%E0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C2%F7%E1%FD%B0%EF%EF</div><a href="#" class="js-hidden rosco-LinkImages">0</a><a href="#" class="js-hidden rosco-LinkImages">1</a><a href="#" class="js-hidden rosco-LinkImages">2</a><a href="#" class="js-hidden rosco-LinkImages">3</a><a href="#" class="js-hidden rosco-LinkImages">4</a><a href="#" class="js-hidden rosco-LinkImages">5</a><a href="#" class="js-hidden rosco-LinkImages">6</a><a href="#" class="js-hidden rosco-LinkImages">7</a><a href="#" class="js-hidden rosco-LinkImages">8</a><a href="#" class="js-hidden rosco-LinkImages">9</a><a href="#" class="js-hidden rosco-LinkImages">10</a><a href="#" class="js-hidden rosco-LinkImages">11</a><a href="#" class="js-hidden rosco-LinkImages">12</a><a href="#" class="js-hidden rosco-LinkImages">13</a><a href="#" class="js-hidden rosco-LinkImages">14</a><a href="#" class="js-hidden rosco-LinkImages">15</a><a href="#" class="js-hidden rosco-LinkImages">16</a><a href="#" class="js-hidden rosco-LinkImages">17</a><a href="#" class="js-hidden rosco-LinkImages">18</a><a href="#" class="js-hidden rosco-LinkImages">19</a><a href="#" class="js-hidden rosco-LinkImages">20</a><a href="#" class="js-hidden rosco-LinkImages">21</a><a href="#" class="js-hidden rosco-LinkImages">22</a><a href="#" class="js-hidden rosco-LinkImages">23</a><a href="#" class="js-hidden rosco-LinkImages">24</a><a href="#" class="js-hidden rosco-LinkImages">25</a><a href="#" class="js-hidden rosco-LinkImages">26</a><a href="#" class="js-hidden rosco-LinkAudios">0</a><a href="#" class="js-hidden rosco-LinkAudios">1</a><a href="#" class="js-hidden rosco-LinkAudios">2</a><a href="#" class="js-hidden rosco-LinkAudios">3</a><a href="#" class="js-hidden rosco-LinkAudios">4</a><a href="#" class="js-hidden rosco-LinkAudios">5</a><a href="#" class="js-hidden rosco-LinkAudios">6</a><a href="#" class="js-hidden rosco-LinkAudios">7</a><a href="#" class="js-hidden rosco-LinkAudios">8</a><a href="#" class="js-hidden rosco-LinkAudios">9</a><a href="#" class="js-hidden rosco-LinkAudios">10</a><a href="#" class="js-hidden rosco-LinkAudios">11</a><a href="#" class="js-hidden rosco-LinkAudios">12</a><a href="#" class="js-hidden rosco-LinkAudios">13</a><a href="#" class="js-hidden rosco-LinkAudios">14</a><a href="#" class="js-hidden rosco-LinkAudios">15</a><a href="#" class="js-hidden rosco-LinkAudios">16</a><a href="#" class="js-hidden rosco-LinkAudios">17</a><a href="#" class="js-hidden rosco-LinkAudios">18</a><a href="#" class="js-hidden rosco-LinkAudios">19</a><a href="#" class="js-hidden rosco-LinkAudios">20</a><a href="#" class="js-hidden rosco-LinkAudios">21</a><a href="#" class="js-hidden rosco-LinkAudios">22</a><a href="#" class="js-hidden rosco-LinkAudios">23</a><a href="#" class="js-hidden rosco-LinkAudios">24</a><a href="#" class="js-hidden rosco-LinkAudios">25</a><a href="#" class="js-hidden rosco-LinkAudios">26</a><div class="rosco-bns js-hidden">Su navegador no es compatible con esta herramienta.</div></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-1777303627385-vd4f26la1</odePageId>
+      <odeBlockId>block-1777454912225-tyehd1we3</odeBlockId>
+      <blockName>Crucigrama</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777303627385-vd4f26la1</odePageId>
+          <odeBlockId>block-1777454912225-tyehd1we3</odeBlockId>
+          <odeIdeviceId>idevice-1777454912224-b9wbprrly</odeIdeviceId>
+          <odeIdeviceTypeName>crossword</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="crucigrama-IDevice">
+       <div class="game-evaluation-ids js-hidden" data-id="idevice-1777454912224-b9wbprrly" data-evaluationb="false" data-evaluationid="3a5a93de-6a95-486b-9b37-7a6a905fea57"></div>
+            <div class="crucigrama-version js-hidden">1</div>
+            <div class="crucigrama-feedback-game"></div>
+            <div class="crucigrama-instructions gameQP-instructions"><p>Completa el siguiente crucigrama.</p></div>
+            <div class="crucigrama-DataGame js-hidden">%E9%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%D1%E0%E7%F1%FB%F5%E0%F3%FF%F3%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%AE%E2%AC%D1%FD%FF%E2%FE%F7%E6%F3%B2%F7%FE%B2%E1%FB%F5%E7%FB%F7%FC%E6%F7%B2%F1%E0%E7%F1%FB%F5%E0%F3%FF%F3%BC%AE%BD%E2%AC%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E5%FD%E0%F6%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E5%FD%E0%F6%B0%A8%B0%C1%E7%E1%E6%FB%E6%E7%F1%FB%FD%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%F7%FC%B2%F7%FE%B2%E3%E7%F7%B2%E1%F7%B2%F6%F7%E1%E2%F7%F8%F3%B2%E7%FC%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%B2%F7%FC%B2%E7%FC%F3%B2%F7%F1%E7%F3%F1%FBa%FC%B2%EB%B2%E1%F7%B2%E0%F7%F7%FF%E2%FE%F3%E8%F3%B2%F7%FC%B2%FE%F3%B2%FD%E6%E0%F3%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%DB%F5%E7%F3%FE%F3%F1%FB%FD%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%F7%FC%B2%F7%FE%B2%E3%E7%F7%B2%E1%F7%B2%F6%F7%E1%E2%F7%F8%F3%B2%FE%F3%B2%FF%FB%E1%FF%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%B2%F7%FC%B2%F3%FF%F0%F3%E1%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%EB%B2%E1%F7%B2%FB%F5%E7%F3%FE%F3%FC%B2%FE%F3%E1%B2%F7%EA%E2%E0%F7%E1%FB%FD%FC%F7%E1%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%C0%F7%F6%E7%F1%F1%FB%FD%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%E3%E7%F7%B2%F1%FD%FC%E1%FB%E1%E6%F7%B2%F7%FC%B2%E1%E7%FF%F3%E0%B2%FD%B2%E0%F7%E1%E6%F3%E0%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%E2%F3%E0%F3%B2%F7%FE%FB%FF%FB%FC%F3%E0%B2%E7%FC%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%D5%E0%F3%F4%FB%F1%FD%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DF%7B%E6%FD%F6%FD%B2%E3%E7%F7%B2%F1%FD%FC%E1%FB%E1%E6%F7%B2%F7%FC%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%E0%B2%FE%F3%E1%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%F7%FC%B2%E7%FC%F3%B2%F5%E0s%F4%FB%F1%F3%B2%EB%B2%FA%F3%FE%FE%F3%E0%B2%E1%E7%B2%E2%E7%FC%E6%FD%B2%F6%F7%B2%F1%FD%E0%E6%F7%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%C1%FB%E1%E6%F7%FF%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%D1%FD%FC%F8%E7%FC%E6%FD%B2%F6%F7%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%E3%E7%F7%B2%E6%FB%F7%FC%F7%FC%B2%FE%F3%E1%B2%FF%FB%E1%FF%F3%E1%B2%FB%FC%F1a%F5%FC%FB%E6%F3%E1%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%D7%F1%E7%F3%F1%FB%FD%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DB%F5%E7%F3%FE%F6%F3%F6%B2%FF%F3%E6%F7%FFs%E6%FB%F1%F3%B2%F1%FD%FC%B2%E7%FC%F3%B2%FD%B2%E4%F3%E0%FB%F3%E1%B2%FB%FC%F1a%F5%FC%FB%E6%F3%E1%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%DB%FC%F1%FD%F5%FC%FB%E6%F3%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C4%F3%FE%FD%E0%B2%F6%F7%E1%F1%FD%FC%FD%F1%FB%F6%FD%B2%E3%E7%F7%B2%E1%F7%B2%E0%F7%E2%E0%F7%E1%F7%FC%E6%F3%B2%F1%FD%FC%B2%E7%FC%F3%B2%FE%F7%E6%E0%F3%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%C1%FD%FE%E7%F1%FB%FD%FC%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C4%F3%FE%FD%E0%F7%E1%B2%E3%E7%F7%B2%F1%E7%FF%E2%FE%F7%FC%B2%E6%FD%F6%F3%E1%B2%FE%F3%E1%B2%F7%F1%E7%F3%F1%FB%FD%FC%F7%E1%B2%F6%F7%FE%B2%E1%FB%E1%E6%F7%FF%F3%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%D1%FD%FF%E2%F3%E6%FB%F0%FE%F7%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%C6%FB%E2%FD%B2%F6%F7%B2%E1%FB%E1%E6%F7%FF%F3%B2%E3%E7%F7%B2%E6%FB%F7%FC%F7%B2%F3%FE%B2%FF%F7%FC%FD%E1%B2%E7%FC%F3%B2%E1%FD%FE%E7%F1%FBa%FC%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%BE%E9%B0%E5%FD%E0%F6%B0%A8%B0%D6%F7%E1%E2%F7%F8%F3%E0%B0%BE%B0%F6%F7%F4%FB%FC%FB%E6%FB%FD%FC%B0%A8%B0%DD%E2%F7%E0%F3%F1%FBa%FC%B2%F6%F7%B2%F3%FB%E1%FE%F3%E0%B2%E7%FC%F3%B2%FB%FC%F1a%F5%FC%FB%E6%F3%B2%F7%FC%B2%E7%FC%F3%B2%F7%F1%E7%F3%F1%FBa%FC%BC%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%C1%FA%FD%E5%B0%A8%FC%E7%FE%FE%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%FA%F3%E1%D0%F3%F1%F9%B0%A8%E6%E0%E7%F7%BE%B0%E7%E0%FE%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%D5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%F1%F3%E1%F7%C1%F7%FC%E1%FB%E6%FB%E4%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FE%F6%F7%B0%A8%E6%E0%E7%F7%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A1%F3%A7%F3%AB%A1%F6%F7%BF%A4%F3%AB%A7%BF%A6%AA%A4%F0%BF%AB%F0%A1%A5%BF%A5%F3%A4%F3%AB%A2%A7%F4%F7%F3%A7%A5%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%A3%A2%A2%B0%BE%B0%F6%FB%F4%F4%FB%F1%E7%FE%E6%EB%B0%A8%B0%A3%A2%A2%B0%BE%B0%E6%FB%FF%F7%B0%A8%B0%A2%B0%BE%B0%F3%E7%E6%FA%FD%E0%D0%F3%F1%F9%DB%FF%F3%F5%F7%B0%A8%B0%B0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%A5%A5%A6%A7%A6%AB%A3%A0%A0%A0%A6%BF%F0%AB%E5%F0%E2%E0%E0%FE%EB%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C0%F7%E2%FE%EB%B0%A8%B0%C0%F7%E1%E2%FD%FC%F6%F7%E0%B0%BE%B0%FF%E1%F5%D7%FC%E6%F7%E0%D1%FD%F6%F7%B0%A8%B0%DB%FC%E6%E0%FD%F6%E7%F1%F7%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%D1%FD%F6%F7%B0%A8%B0%D7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B2%FC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%DB%FC%F6%FB%F1%F3%E6%F7%C5%FD%E0%F6%B0%A8%B0%C2%E0%FD%E2%FD%E0%F1%FB%FD%FC%F3%B2%E7%FC%F3%B2%E2%F3%FE%F3%F0%E0%F3%B2%FD%B2%F7%EA%E2%E0%F7%E1%FBa%FC%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B03%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%E2%FB%E1%E6%F3%B2%F7%E1%A8%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%C0%F7%E3%E7%FB%E0%F7%F6%D3%F1%F1%F7%E1%E1%D9%F7%EB%B0%A8%B0%D7%E1%B2%FC%F7%F1%F7%E1%F3%E0%FB%FD%B2%F7%FE%B2%F1a%F6%FB%F5%FD%B2%F6%F7%B2%F3%F1%F1%F7%E1%FD%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B03%D5%F7%FC%FB%F3%FE%B3%B2%DE%F3%B2%FB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B2%E3%E7%F7%B2%F7%E1%E6%F3%F0%F3%B2%F0%E7%E1%F1%F3%FC%F6%FD%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%C2%E7%FE%E1%F3%B2%F3%E3%E7%7F%B2%E2%F3%E0%F3%B2%F8%E7%F5%F3%E0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%D7%E0%E0%FD%E0%F7%E1%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%D3%F1%FB%F7%E0%E6%FD%E1%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C2%F7%E1%FD%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F3%E0%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%DE%7F%FF%FB%E6%F7%B2%F6%F7%B2%E6%FB%F7%FF%E2%FD%B2%BA%FF%FF%A8%E1%E1%BB%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C2%F3%FC%E6%F3%FE%FE%F3%B2%D1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%C1%F3%FE%FB%E0%B2%F6%F7%FE%B2%FF%FD%F6%FD%B2%E2%F3%FC%E6%F3%FE%FE%F3%B2%F1%FD%FF%E2%FE%F7%E6%F3%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%DCh%FF%F7%E0%FD%B2%F6%F7%B2%E2%E0%F7%F5%E7%FC%E6%F3%E1%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%C2%E0%F7%F5%E7%FC%E6%F3%B2%E1%FB%FC%B2%FB%FFs%F5%F7%FC%F7%E1%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B03%D0%FB%F7%FC%B3%B0%BE%B0%FF%F5%E1%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B03%D1%FD%FF%E2%FE%F7%E6%F3%F6%F3%E1%B2%FE%F3%E1%B2%E2%E0%F7%F5%E7%FC%E6%F3%E1%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B03%D1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%D7%EA%F1%F7%FE%F7%FC%E6%F7%B3%B2%EE%B23%D5%F7%FC%FB%F3%FE%B3%B2%EE%B23%DF%E7%EB%B2%F0%FB%F7%FC%B3%B2%EE%B23%C2%F7%E0%F4%F7%F1%E6%FD%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B03%DC%FD%B2%F7%E0%F3%B2%F7%E1%FD%B3%B2%EE%B23%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DC%FD%B2%F7%E1%B2%F1%FD%E0%E0%F7%F1%E6%FD%B3%B2%EE%B23%DE%FD%B2%E1%F7%FC%E6%FB%FF%FD%E1%B3%B2%EE%B23%D7%E0%E0%FD%E0%B3%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C5%E0%FD%E6%F7%B0%A8%B0%D7%E1%F1%E0%FB%F0%F7%B2%FE%F3%B2%E2%F3%FE%F3%F0%E0%F3%B2%F1%FD%E0%E0%F7%F1%E6%F3%B2%EB%B2%E2%E7%FE%E1%F3%B2%F7%FC%B2%C0%F7%E1%E2%FD%FC%F6%F7%E0%BC%B2%C1%FB%B2%F6%E7%F6%F3%E1%BE%B2%E2%E7%FE%E1%F3%B2%F7%FC%B2%C1%F7%F5%E7%FB%E0%BC%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%D1%FD%FF%FB%F7%FC%F1%F7%B2%FE%F3%B2%E2%F3%E0%E6%FB%F6%F3%B2%F3%FC%E6%F7%E1%B2%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%BC%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%DE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%FC%FD%B2%E1%F7%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E2%FD%E0%E3%E7%F7%B2%F7%E1%E6%F3%B2%E2s%F5%FB%FC%F3%B2%FC%FD%B2%F4%FD%E0%FF%F3%B2%E2%F3%E0%E6%F7%B2%B2%F6%F7%B2%E7%FC%B2%E2%F3%E3%E7%F7%E6%F7%B2%C1%D1%DD%C0%DF%BC%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B03%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E7%FC%F3%B2%E4%F7%E8%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%DB%FC%F4%FD%E0%FF%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FD%E0%7F%F3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B2%C1%FD%FE%FD%B2%E2%E7%F7%F6%F7%B2%F8%E7%F5%F3%E0%B2%E7%FC%F3%B2%E4%F7%E8%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%C1%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E1%F7%B2%F5%E7%F3%E0%F6%F3%E0s%B2%F3%E7%E6%FD%FFs%E6%FB%F1%F3%FF%F7%FC%E6%F7%B2%F6%F7%E1%E2%E7%7B%E1%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%E0%F7%F5%E7%FC%E6%F3%BC%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%C2%E7%F7%F6%F7%B2%F5%E7%F3%E0%F6%F3%E0%B2%FE%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%E6%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%F1%FD%FF%FD%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%DE%F3%B2h%FE%E6%FB%FF%F3%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%F5%E7%F3%E0%F6%F3%F6%F3%B2%F7%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%F3%B2%FA%F3%B2%E0%F7%F3%FE%FB%E8%F3%F6%FD%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%C2%E7%F7%F6%F7%B2%E0%F7%F3%FE%FB%E8%F3%E0%B2%F7%E1%E6%F3%B2%F3%F1%E6%FB%E4%FB%F6%F3%F6%B2%F1%E7%F3%FC%E6%F3%E1%B2%E4%F7%F1%F7%E1%B2%E3%E7%FB%F7%E0%F3%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%D1%F7%E0%E0%F3%E0%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%D1%F3%E0%F5%F3%FC%F6%FD%BC%B2%D7%E1%E2%F7%E0%F7%BE%B2%E2%FD%E0%B2%F4%F3%E4%FD%E0%BC%BC%BC%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%E2%E7%FC%E6%FD%E1%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D1%FD%E0%E0%F7%F1%E6%B0%A8%B0%D1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%DB%FC%F1%FD%E0%E0%F7%F1%E6%B0%A8%B0%DB%FC%F1%FD%E0%E0%F7%F1%E6%FD%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%F1%FD%FF%E2%FE%F7%E6%F3%F6%F3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%F6%F3%F6%B2%FC%FD%B2%E1%E7%E2%F7%E0%F3%F6%F3%BC%B2%C2%E7%FC%E6%E7%F3%F1%FBa%FC%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%D1%E0%E7%F1%FB%F5%E0%F3%FF%F3%B0%BE%B0%FF%E1%F5%D1%FA%F7%F1%F9%B0%A8%B0%D1%FD%FF%E2%E0%FD%F0%F3%E0%B0%BE%B0%FF%E1%F5%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%B2%FE%F3%E1%B2%E1%FD%FE%E7%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%C0%F7%F0%FD%FD%E6%B0%A8%B0%D8%E7%F5%F3%E0%B2%FD%E6%E0%F3%B2%E4%F7%E8%B0%BE%B0%FF%E1%F5%D5%F3%FF%F7%DD%E4%F7%E0%B0%A8%B0%D7%FE%B2%F8%E7%F7%F5%FD%B2%FA%F3%B2%E6%F7%E0%FF%FB%FC%F3%F6%FD%BC%B2%C6%E7%B2%E2%E7%FC%E6%E7%F3%F1%FBa%FC%B2%F7%E1%B2%B7%E1%BC%B2%D3%F1%FB%F7%E0%E6%FD%E1%A8%B2%B7%E1%B2%F6%F7%B2%B7%E1%BC%B0%BE%B0%FF%E1%F5%C1%F7%FE%F7%F1%E6%C5%FD%E0%F6%B0%A8%B0%DA%F3%E8%B2%F1%FE%FB%F1%B2%F7%FC%B2%F7%FE%B2%F1%E7%F3%F6%E0%F3%F6%FD%B2%F6%F7%B2%F1%F3%F6%F3%B2%E2%F3%FE%F3%F0%E0%F3%B2%E2%F3%E0%F3%B2%E4%F7%E0%B2%FE%F3%B2%F6%F7%F4%FB%FC%FB%F1%FBa%FC%B0%BE%B0%FF%E1%F5%DA%FD%E0%FB%E8%FD%FC%E6%F3%FE%E1%B0%A8%B0%DA%FD%E0%FB%E8%FD%FC%E6%F3%FE%F7%E1%B0%BE%B0%FF%E1%F5%C4%F7%E0%E6%FB%F1%F3%FE%E1%B0%A8%B0%C4%F7%E0%E6%FB%F1%F3%FE%F7%E1%B0%BE%B0%FF%E1%F5%C1%FA%FD%E5%D6%F7%F4%FB%FC%FB%E6%FB%FD%FC%E1%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%BD%FD%F1%E7%FE%E6%F3%E0%B2%F6%F7%F4%FB%FC%FB%F1%FB%FD%FC%F7%E1%B0%BE%B0%FF%E1%F5%C1%FA%FD%E5%D0%F3%F1%F9%B0%A8%B0%DF%FD%E1%E6%E0%F3%E0%BD%FD%F1%E7%FE%E6%F3%E0%B2%FB%FF%F3%F5%F7%FC%B2%F6%F7%B2%F4%FD%FC%F6%FD%B0%BE%B0%FF%E1%F5%C1%FD%FE%E7%E6%FB%FD%FC%C5%FD%E0%F6%B0%A8%B0%C2%F3%FE%F3%F0%E0%F3%B0%EF%EF</div>
+            
+            
+            
+            
+            <div class="crucigrama-bns js-hidden">Su navegador no es compatible con esta herramienta.</div>
+        </div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-1777364689837-7czpeyxca</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Descarga del fichero fuente</pageName>
+  <odeNavStructureOrder>13</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Descarga del fichero fuente</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-1777364689837-7czpeyxca</odePageId>
+      <odeBlockId>block-1777364699725-vkmigt35l</odeBlockId>
+      <blockName>Descargar el archivo fuente</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-1777364689837-7czpeyxca</odePageId>
+          <odeBlockId>block-1777364699725-vkmigt35l</odeBlockId>
+          <odeIdeviceId>idevice-1777364699723-ikyemz7ko</odeIdeviceId>
+          <odeIdeviceTypeName>download-source-file</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-download-package-instructions"><table class="exe-table exe-package-info"><caption>Información general sobre este recurso educativo</caption>
+<tbody>
+<tr>
+<th>Título</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-title">Sistemas de ecuaciones</span></td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-description">-</span></td>
+</tr>
+<tr>
+<th>Autoría</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-author">Alejandro Díaz Álvarez</span></td>
+</tr>
+<tr>
+<th>Licencia</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-license">creative commons: attribution - share alike 4.0</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Este contenido fue creado con <a href="https://exelearning.net/">eXeLearning</a>, el editor libre y de fuente abierta diseñado para crear recursos educativos.</p></div><p class="exe-download-package-link"><a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#107275;color:#ffffff;">Descargar el archivo .elpx</a></p>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
